@@ -1,5 +1,4 @@
 
-
 import streamlit as st
 import google.generativeai as genai
 import google.ai.generativelanguage as glm
@@ -22,7 +21,7 @@ API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
 st.image("./Google-Gemini-AI-Logo.png", width=200)
-st.write("")
+st.write("Gemini bot created by  shubhan")
 
 gemini_pro, gemini_vision = st.tabs(["Gemini Pro", "Gemini Pro Vision"])
 
